@@ -1,7 +1,0 @@
-participant_id,metric_type,missing_ratio,temporal_gaps,max_gap_hours,expected_readings,actual_readings
-001,bp,0,0,0.3333333333333333,1,5
-001,sleep,0,0,24.0,4,5
-001,steps,0,0,24.0,4,5
-001,hr,0,0,0.08333333333333333,4,5
-001,spo2,0,0,0.3333333333333333,1,5
-001,temp,0,0,0.3333333333333333,1,5

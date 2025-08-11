@@ -30,6 +30,14 @@ This repository implements a comprehensive **Exploratory Data Analysis (EDA) pip
 - **Compliance heatmaps** and correlation matrices
 - **Comprehensive summary reports**
 
+### 🤖 **LangChain AI Integration** (NEW!)
+- **Intelligent health summaries** using Large Language Models
+- **Automated anomaly detection** with natural language explanations
+- **Personalized health recommendations** for each participant
+- **Data quality assessments** with actionable insights
+- **Conversational querying** of historical health data
+- **Vector database storage** for efficient report retrieval
+
 ## Project Structure
 
 ```
@@ -39,7 +47,10 @@ protocol_paper/
 │   ├── individual_analysis.py    # Phase 2: Individual-level analysis
 │   ├── cohort_analysis.py        # Phase 3: Cohort aggregation
 │   ├── reporting_visualization.py # Phase 4: Reporting and plots
+│   ├── langchain_integration.py  # LangChain AI integration
 │   └── eda_pipeline.py           # Main pipeline orchestrator
+├── config.py                     # LangChain configuration
+├── generate_weekly_reports.py    # AI-powered weekly reports generator
 ├── data/
 │   └── input/                    # Place your health data files here
 ├── results/                      # Pipeline outputs
@@ -50,6 +61,11 @@ protocol_paper/
 │   │   ├── individual/           # Per-participant visualizations
 │   │   └── cohort/              # Cohort-level plots
 │   └── logs/                    # Execution logs
+├── reports/                     # AI-generated reports (NEW!)
+│   ├── markdown/                # Markdown health summaries
+│   ├── html/                    # HTML reports
+│   ├── json/                    # JSON data for programmatic access
+│   └── vector_store/            # FAISS vector database
 ├── requirements.txt             # Python dependencies
 └── README.md                   # This file
 ```
@@ -112,6 +128,60 @@ python src/eda_pipeline.py --input_dir /path/to/your/data --output_dir /path/to/
 # View help
 python src/eda_pipeline.py --help
 ```
+
+### 🤖 AI-Powered Weekly Reports (NEW!)
+
+Generate intelligent health summaries using LangChain integration:
+
+```bash
+# Basic usage with AI summaries
+python generate_weekly_reports.py --input_dir data/input --output_dir results/
+
+# Without LangChain (basic reports only)
+python generate_weekly_reports.py --input_dir data/input --output_dir results/ --no-langchain
+
+# Check configuration
+python generate_weekly_reports.py --config-check
+
+# Test LangChain integration
+python generate_weekly_reports.py --test-langchain
+```
+
+#### Setting up LangChain Integration
+
+1. **Install LangChain dependencies:**
+```bash
+pip install langchain openai faiss-cpu google-cloud-aiplatform anthropic
+```
+
+2. **Configure API keys:**
+```bash
+# For OpenAI (recommended)
+export OPENAI_API_KEY="your_api_key_here"
+export LLM_PROVIDER="openai"
+
+# For Google Vertex AI
+export GOOGLE_APPLICATION_CREDENTIALS="/path/to/service-account.json"
+export LLM_PROVIDER="google"
+
+# For Anthropic Claude
+export ANTHROPIC_API_KEY="your_api_key_here"
+export LLM_PROVIDER="anthropic"
+```
+
+3. **Optional: Enable vector database storage**
+```bash
+export ENABLE_VECTOR_STORE="true"
+```
+
+#### AI Features
+
+- **Intelligent Summaries**: Natural language interpretation of health metrics
+- **Anomaly Detection**: AI identifies unusual patterns with explanations
+- **Personalized Recommendations**: Tailored advice based on individual data
+- **Data Quality Ratings**: Automated assessment of data completeness
+- **Conversational Queries**: Ask questions about historical health trends
+- **Multi-format Output**: Markdown, HTML, and JSON reports
 
 ### Example Data
 
@@ -227,6 +297,16 @@ The repository includes example data files to test the pipeline:
 - **statsmodels** ≥0.13.0 - Statistical modeling
 - **missingno** ≥0.5.0 - Missing data visualization
 - **plotly** ≥5.0.0 - Interactive visualizations (optional)
+
+### LangChain Integration Dependencies (Optional)
+- **langchain** ≥0.1.0 - LLM orchestration framework
+- **openai** ≥1.0.0 - OpenAI API integration
+- **google-cloud-aiplatform** ≥1.30.0 - Google Vertex AI (optional)
+- **anthropic** ≥0.3.0 - Anthropic Claude API (optional)
+- **faiss-cpu** ≥1.7.4 - Vector database for report storage
+- **tiktoken** ≥0.5.0 - Token counting for LLM optimization
+- **python-dotenv** ≥1.0.0 - Environment variable management
+- **markdownify** ≥0.11.0 - HTML to Markdown conversion
 
 ### System Requirements
 - **Memory**: 4GB+ RAM for medium datasets (recommended 8GB+)

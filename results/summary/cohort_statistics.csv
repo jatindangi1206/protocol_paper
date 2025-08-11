@@ -1,7 +1,0 @@
-metric_type,total_participants,total_readings,mean_value,median_value,std_value,q25_value,q75_value,min_value,max_value,normal_quality_ratio,date_range_days,readings_per_participant,mean_diastolic,median_diastolic,mean_light_sleep,mean_deep_sleep,mean_rem_sleep
-bp,1,5,120.0,120.0,3.8078865529319543,118.0,122.0,115.0,125.0,1.0,0,5.0,80.0,80.0,,,
-sleep,1,5,337.0,330.0,13.96424004376894,330.0,340.0,325.0,360.0,1.0,4,5.0,,,182.0,90.0,65.0
-steps,1,5,1840.0,1800.0,522.4940191045253,1500.0,2200.0,1200.0,2500.0,1.0,4,5.0,,,,,
-hr,1,5,73.8,74.0,3.0331501776206204,72.0,75.0,70.0,78.0,1.0,0,5.0,,,,,
-spo2,1,5,97.6,98.0,1.140175425099138,97.0,98.0,96.0,99.0,1.0,0,5.0,,,,,
-temp,1,5,98.72,98.7,0.2588435821108922,98.6,98.8,98.4,99.1,1.0,0,5.0,,,,,

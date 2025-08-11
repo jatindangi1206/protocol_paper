@@ -1,7 +1,0 @@
-participant_id,metric_type,trigger_type,compliance_score,days_active,total_readings
-001,bp,user_initiated,1.0,1.0,5
-001,sleep,automatic,1.0,,5
-001,steps,automatic,1.0,,5
-001,hr,automatic,1.0,,5
-001,spo2,user_initiated,1.0,1.0,5
-001,temp,automatic,1.0,,5

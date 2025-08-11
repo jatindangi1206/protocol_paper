@@ -6,3 +6,15 @@ scipy>=1.7.0
 statsmodels>=0.13.0
 missingno>=0.5.0
 plotly>=5.0.0
+
+# LangChain Integration Dependencies
+langchain>=0.1.0
+openai>=1.0.0
+google-cloud-aiplatform>=1.30.0
+anthropic>=0.3.0
+faiss-cpu>=1.7.4
+tiktoken>=0.5.0
+
+# Additional utilities for enhanced functionality
+python-dotenv>=1.0.0
+markdownify>=0.11.0

@@ -1,6 +1,0 @@
-participant_id,metric_type,timestamp_unix,datetime_utc,quality_flag,value_1,value_2,unit,metadata
-001,bp,1699123200,2023-11-04 18:40:00+00:00,normal,120,80,mmHg,75
-001,bp,1699124400,2023-11-04 19:00:00+00:00,normal,118,78,mmHg,72
-001,bp,1699125600,2023-11-04 19:20:00+00:00,normal,122,82,mmHg,78
-001,bp,1699126800,2023-11-04 19:40:00+00:00,normal,125,85,mmHg,80
-001,bp,1699128000,2023-11-04 20:00:00+00:00,normal,115,75,mmHg,70

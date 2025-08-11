@@ -1,6 +1,0 @@
-participant_id,metric_type,timestamp_unix,datetime_utc,quality_flag,value_1,value_2,unit,metadata
-001,steps,1699123200,2023-11-04 18:40:00+00:00,normal,1500,1.2,steps,65
-001,steps,1699209600,2023-11-05 18:40:00+00:00,normal,2200,1.8,steps,95
-001,steps,1699296000,2023-11-06 18:40:00+00:00,normal,1800,1.4,steps,78
-001,steps,1699382400,2023-11-07 18:40:00+00:00,normal,2500,2.0,steps,110
-001,steps,1699468800,2023-11-08 18:40:00+00:00,normal,1200,0.9,steps,52
