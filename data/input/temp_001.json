@@ -1,0 +1,9 @@
+{
+  "readings": [
+    {"timestamp": 1699123200, "value": 98.6},
+    {"timestamp": 1699124400, "value": 98.8},
+    {"timestamp": 1699125600, "value": 98.4},
+    {"timestamp": 1699126800, "value": 99.1},
+    {"timestamp": 1699128000, "value": 98.7}
+  ]
+}

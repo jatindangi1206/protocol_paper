@@ -1,0 +1,6 @@
+participant_id,metric_type,timestamp_unix,datetime_utc,quality_flag,value_1,value_2,unit,metadata
+001,sleep,1699075200,2023-11-04 05:20:00+00:00,normal,330,,minutes,"light:180,deep:90,rem:60"
+001,sleep,1699161600,2023-11-05 05:20:00+00:00,statistical_outlier,360,,minutes,"light:200,deep:85,rem:75"
+001,sleep,1699248000,2023-11-06 05:20:00+00:00,normal,325,,minutes,"light:165,deep:95,rem:65"
+001,sleep,1699334400,2023-11-07 05:20:00+00:00,normal,340,,minutes,"light:190,deep:80,rem:70"
+001,sleep,1699420800,2023-11-08 05:20:00+00:00,normal,330,,minutes,"light:175,deep:100,rem:55"

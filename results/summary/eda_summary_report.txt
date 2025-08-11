@@ -1,0 +1,104 @@
+GOQII Health Data Exploratory Data Analysis - Summary Report
+======================================================================
+
+Generated on: 2025-08-11 17:00:34
+
+DATA OVERVIEW
+--------------------
+
+BP:
+  Participants: 1
+  Total Readings: 5
+  Mean Value: 120.00
+  Normal Quality Ratio: 100.00%
+  Date Range: 0 days
+
+SLEEP:
+  Participants: 1
+  Total Readings: 5
+  Mean Value: 337.00
+  Normal Quality Ratio: 100.00%
+  Date Range: 4 days
+
+STEPS:
+  Participants: 1
+  Total Readings: 5
+  Mean Value: 1840.00
+  Normal Quality Ratio: 100.00%
+  Date Range: 4 days
+
+HR:
+  Participants: 1
+  Total Readings: 5
+  Mean Value: 73.80
+  Normal Quality Ratio: 100.00%
+  Date Range: 0 days
+
+SPO2:
+  Participants: 1
+  Total Readings: 5
+  Mean Value: 97.60
+  Normal Quality Ratio: 100.00%
+  Date Range: 0 days
+
+TEMP:
+  Participants: 1
+  Total Readings: 5
+  Mean Value: 98.72
+  Normal Quality Ratio: 100.00%
+  Date Range: 0 days
+
+
+COMPLIANCE SUMMARY
+--------------------
+
+BP:
+  Mean Compliance: 100.00%
+  Participants: 1
+  Top Performers: 001
+  Need Improvement: 001
+
+SLEEP:
+  Mean Compliance: 100.00%
+  Participants: 1
+  Top Performers: 001
+  Need Improvement: 001
+
+STEPS:
+  Mean Compliance: 100.00%
+  Participants: 1
+  Top Performers: 001
+  Need Improvement: 001
+
+HR:
+  Mean Compliance: 100.00%
+  Participants: 1
+  Top Performers: 001
+  Need Improvement: 001
+
+SPO2:
+  Mean Compliance: 100.00%
+  Participants: 1
+  Top Performers: 001
+  Need Improvement: 001
+
+TEMP:
+  Mean Compliance: 100.00%
+  Participants: 1
+  Top Performers: 001
+  Need Improvement: 001
+
+
+CORRELATION ANALYSIS
+--------------------
+Significant correlations found:
+  spo2 - temp: r=-0.982 (p=0.000)
+
+
+OUTPUT FILES
+--------------------
+Cleaned Data: results/cleaned/{metric}.csv
+Merged Dataset: results/merged/merged_metrics.csv
+Summary Statistics: results/summary/*.csv
+Individual Plots: results/plots/individual/
+Cohort Plots: results/plots/cohort/

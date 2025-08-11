@@ -1,0 +1,6 @@
+participant_id,metric_type,timestamp_unix,datetime_utc,quality_flag,value_1,value_2,unit,metadata
+001,temp,1699123200,2023-11-04 18:40:00+00:00,normal,98.6,,°F,
+001,temp,1699124400,2023-11-04 19:00:00+00:00,normal,98.8,,°F,
+001,temp,1699125600,2023-11-04 19:20:00+00:00,normal,98.4,,°F,
+001,temp,1699126800,2023-11-04 19:40:00+00:00,normal,99.1,,°F,
+001,temp,1699128000,2023-11-04 20:00:00+00:00,normal,98.7,,°F,

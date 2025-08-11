@@ -1,0 +1,2 @@
+participant_id,metric_type,total_triggers,days_with_triggers,avg_daily_triggers,max_daily_triggers,peak_hour,triggers_at_peak
+001,spo2,5,1,5.0,5,19,3

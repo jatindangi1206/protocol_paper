@@ -1,0 +1,6 @@
+participant_id,metric_type,timestamp_unix,datetime_utc,quality_flag,value_1,value_2,unit,metadata
+001,hr,1699123200,2023-11-04 18:40:00+00:00,normal,72,,bpm,
+001,hr,1699123500,2023-11-04 18:45:00+00:00,normal,75,,bpm,
+001,hr,1699123800,2023-11-04 18:50:00+00:00,normal,70,,bpm,
+001,hr,1699124100,2023-11-04 18:55:00+00:00,normal,78,,bpm,
+001,hr,1699124400,2023-11-04 19:00:00+00:00,normal,74,,bpm,

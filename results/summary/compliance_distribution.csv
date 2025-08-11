@@ -1,0 +1,7 @@
+metric_type,mean_compliance,median_compliance,std_compliance,q25_compliance,q75_compliance,min_compliance,max_compliance,participants_count,top_performers,improvement_targets
+bp,1.0,1.0,,1.0,1.0,1.0,1.0,1,001,001
+sleep,1.0,1.0,,1.0,1.0,1.0,1.0,1,001,001
+steps,1.0,1.0,,1.0,1.0,1.0,1.0,1,001,001
+hr,1.0,1.0,,1.0,1.0,1.0,1.0,1,001,001
+spo2,1.0,1.0,,1.0,1.0,1.0,1.0,1,001,001
+temp,1.0,1.0,,1.0,1.0,1.0,1.0,1,001,001

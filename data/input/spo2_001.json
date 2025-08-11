@@ -1,0 +1,9 @@
+{
+  "data": [
+    {"timestamp": 1699123200, "value": 98, "status": "normal"},
+    {"timestamp": 1699124400, "value": 97, "status": "normal"},
+    {"timestamp": 1699125600, "value": 99, "status": "normal"},
+    {"timestamp": 1699126800, "value": 96, "status": "normal"},
+    {"timestamp": 1699128000, "value": 98, "status": "normal"}
+  ]
+}
