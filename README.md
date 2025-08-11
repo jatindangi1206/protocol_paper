@@ -380,8 +380,8 @@ If you use this pipeline in your research, please cite:
 
 ```
 GOQII Health Data Exploratory Data Analysis Protocol Paper
-[Authors], [Year]
-[Journal/Conference]
+Jatin Dangi, 2025
+
 ```
 
 ## Support
